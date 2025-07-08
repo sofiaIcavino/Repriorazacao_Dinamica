@@ -27,8 +27,7 @@ Uma thread externa simula mudanças ambientais e chama `repriorizar` aleatoriame
 1. Compile com `make`
 2. Execute com `./repriorizacao`
 
-## Relatório de Resultados
-Documente os seguintes casos de teste:
+## Relatório de Resultados:
 
 ### Caso 1: Alta concorrência de inserção
 - **Variável:** número de produtores
@@ -42,13 +41,7 @@ Documente os seguintes casos de teste:
 - **Variável:** número de consumidores
 - **Importância:** testar desempenho sob carga de remoção
 
-Inclua no relatório:
 - Tempo de execução
 - Número de atualizações
 - Observações
 
-## Critérios de Avaliação
-- Corretude funcional (40%)
-- Sincronização segura (20%)
-- Implementação da repriorização (20%)
-- Relatório (20%)
